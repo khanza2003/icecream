@@ -1,0 +1,181 @@
+*{
+    margin: 0px;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(250, 225, 233);
+}
+#logo{
+    width: 110px;
+    height: 110px;
+}
+#nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+#nav li{
+    list-style: none;
+    margin-left: 40px;
+    margin-right: 20px;
+    font-family: "Bodoni Moda", serif;
+}
+.link1{
+    color: rgb(225, 7, 102);
+    font-size: 25px;
+    text-decoration: none;
+}
+#first{
+    height: 60vh;
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+#fh1a{
+    margin-left: 250px;
+    font-size: 80px;
+    color: rgb(222, 34, 166);
+    font-family: "Bodoni Moda", serif;
+}
+#fh1b{
+    margin-left: 238px;
+    font-size: 80px;
+    color: rgb(245, 11, 151);
+    font-family: "Bodoni Moda", serif;
+}
+span{
+    margin-left: 295px;
+    font-size: 80px;
+    font-weight: 600;
+    color: rgb(228, 93, 115);
+    font-family: "Bodoni Moda", serif;
+}
+.fb1{
+    margin-left: 320px;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(168, 65, 96);
+    border: none;
+    font-size: 20px;
+    font-family: "Bodoni Moda", serif;
+}
+.fb2{
+    margin-left: 90px;
+    color: white;
+    background-color: rgb(164, 79, 104);
+    text-decoration: none;
+    border: none;
+    font-family: "Bodoni Moda", serif;
+    font-size: 20px;
+}
+.frtimg{
+    height: 70%;
+    width: 45%;
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+    top: 785px;
+    margin-top: -700px;
+}
+.group1{
+    position: absolute;
+    height: 100%;
+    bottom: 0px;
+    right: 50%;
+    top: 30px;
+    left: 10%;
+    transition: bottom 2s,top 2s,left 1s,right 1s;
+}
+.frtimg:hover #bg2{
+    top: 70%;
+}
+#mainhead{
+    color: rgb(181, 11, 96);
+    font-size: 100px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: "Tangerine", cursive;
+}
+.timg1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.imga{
+    height: 600px;
+    width: 600px;
+}
+.timg1 button{
+    color: white;
+    background-color: palevioletred;
+    border: none;
+    font-size: 20px;
+}
+.content{
+
+}
+.content h1{
+    font-size: 70px;
+    color: rgb(144, 6, 89);
+    font-family: "Tangerine", cursive;
+}
+.content p{
+    font-size: 50px;
+    color: rgb(206, 18, 100);
+    font-family: "Tangerine", cursive;
+}
+.bg1 h1{
+    font-size: 90px;
+    color: rgb(226, 21, 89);
+    text-align: center;
+    margin-top: 60px;
+    font-family: "Tangerine", cursive;
+}
+.cntnt{
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(236, 29, 160);
+    font-family: "Tangerine", cursive;
+    
+}
+#four h1{
+    color: palevioletred;
+    margin-left: 400px;
+    font-size: 90px;
+    font-family: "Tangerine", cursive;
+}
+#four p{
+    font-size: 50px;
+    color: rgb(246, 38, 145);
+    font-weight: 600;
+    font-family: "Tangerine", cursive;
+}
+.para{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+footer{
+   background-color: rgb(180, 128, 143);
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-family: "Bodoni Moda", serif;
+}
+footer li{
+    font-size: 20px;
+    color: white;
+    list-style: none;
+}
+#second{
+    background-color: rgb(242, 231, 235);
+}
+#four{
+    background-color: rgb(244, 228, 230);
+}
+
